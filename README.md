@@ -13,7 +13,7 @@ available oorsprong.org webservice for a list of countries.
 
 This version uses the Python Zeep module to inspect the WSDL. Zeep handles all
 the http request and response operations, and also abstracts away all XML parsing,
-making these aspects quite simple in the program below. The advantage of using
+making these aspects quite simple in the program itself. The advantage of using
 the WSDL over hard coding the XML request is that if Darwin release a new version
 of the WSDL then this can simply be updated in the config file. The program does
 not need to know about the underlying XML data schemas, XSD files etc.
