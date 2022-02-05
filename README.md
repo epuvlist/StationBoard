@@ -16,13 +16,15 @@ directory as the program. Important elements which must be present in the
 config file are:
 
 - SOAP section
---  key - A valid user key for accessing the Darwin service.
+key:  A valid user key for accessing the Darwin service. To obtain a key visit 
+      https://www.nationalrail.co.uk/100296.aspx.
+      
+wsdl: URL of the current WSDL
 
-Section   Option  Detail
-=======   ======  ======
-SOAP      key     A valid user key for accessing the Darwin service. To obtain a key visit https://www.nationalrail.co.uk/100296.aspx.
-SOAP      wsdl    URL of the current WSDL
-station   crs     The desired departure station
+- station section
+
+crs: Three-letter station code for the desired departure station. For a list
+     of codes see https://www.nationalrail.co.uk/stations_destinations/48541.aspx
 
 The config file also contains optional configs for display font
 and colours.
