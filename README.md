@@ -2,7 +2,9 @@
 Train departures real time display using the UK National Rail Darwin web service.
 
 This Python program presents a live departure board for a selected UK railway
-station. It uses a SOAP interface into the National Rail Darwin web service.
+station. It uses a SOAP interface into the National Rail Darwin web service. You
+need to register for a user key to access this service. The user key should be
+entered into the .ini file (see below).
 
 It requires the Python modules Zeep and Tkinter.
 
