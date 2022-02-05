@@ -6,6 +6,9 @@ station. It uses a SOAP interface into the National Rail Darwin web service.
 
 It requires the Python modules Zeep and Tkinter.
 
+wsdl_test.py is included as an example of a Zeep interface. It interrogates the openly 
+available oorsprong.org webservice for a list of countries.
+
 This version uses the Python Zeep module to inspect the WSDL. Zeep handles all
 the http request and response operations, and also abstracts away all XML parsing,
 making these aspects quite simple in the program below. The advantage of using
