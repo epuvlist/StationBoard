@@ -15,6 +15,9 @@ The configuration file StationBoard.ini must be present in the same
 directory as the program. Important elements which must be present in the
 config file are:
 
+- SOAP section
+-- Option
+
 Section   Option  Detail
 =======   ======  ======
 SOAP      key     A valid user key for accessing the Darwin service. To obtain a key visit https://www.nationalrail.co.uk/100296.aspx.
