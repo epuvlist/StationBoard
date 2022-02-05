@@ -16,7 +16,7 @@ directory as the program. Important elements which must be present in the
 config file are:
 
 - SOAP section
-  key - A valid user key for accessing the Darwin service.
+-  key - A valid user key for accessing the Darwin service.
 
 Section   Option  Detail
 =======   ======  ======
