@@ -24,7 +24,7 @@ config file are:
 * key:  A valid user key for accessing the Darwin service. To obtain a key visit 
       https://www.nationalrail.co.uk/100296.aspx.
       
-* wsdl: URL of the current WSDL
+* wsdl: URL of the current WSDL (check the above address to get the current WSDL).
 
 - station section
 
