@@ -413,4 +413,4 @@ display.update_time() # start the clock display
 
 display.root.mainloop()
 
-print ("Thank you for using Station Board.\nNow fuck off")
+print ("Thank you for using Station Board")
