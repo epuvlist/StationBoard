@@ -1,8 +1,10 @@
 # Station display board (Zeep / WSDL version)
-Train departures real time display using the UK National Rail Darwin web service
+Train departures real time display using the UK National Rail Darwin web service.
 
 This Python program presents a live departure board for a selected UK railway
 station. It uses a SOAP interface into the National Rail Darwin web service.
+
+It requires the Python modules Zeep and Tkinter.
 
 This version uses the Python Zeep module to inspect the WSDL. Zeep handles all
 the http request and response operations, and also abstracts away all XML parsing,
